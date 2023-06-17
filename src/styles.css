@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  width: 50%;
+  border: 2px solid #fff;
+  margin: 50px auto;
+  border-radius: 4px;
+}
+
+.header-content {
+  width: 80%;
+  border-bottom: 3px solid #fff;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-content .search {
+  float: right;
+}
+
+.search input {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.main {
+  width: 80%;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.main .right-containor {
+  float: right;
+  font-size: 45px;
+}
+
+.right-containor .degree {
+  font-size: 75px;
+}
+
+.right-containor .text {
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.footer-content {
+  width: 80%;
+  border-top: 3px solid #fff;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .forecast {
+  font-size: 30px;
+}
+
+footer .forecast span .item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-1 {
+  margin-right: 60px;
+}
+
+footer .days span .item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-1 {
+  margin-right: 30px;
+}
